@@ -1,0 +1,54 @@
+name: docya_app
+description: DocYa - Login/Registro
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+
+dependencies:
+  
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.1.0
+
+  flutter_localizations:
+    sdk: flutter  
+
+  # 🔹 Networking
+  http: ^1.2.1
+  dropdown_search: ^5.0.6
+  url_launcher: ^6.3.0
+  font_awesome_flutter: 10.6.0
+
+  # 🔹 Google login & prefs
+  google_sign_in: ^6.2.2
+  shared_preferences: ^2.2.2
+
+  # 🔹 Google Maps + Places
+  google_maps_flutter: ^2.6.1
+  google_api_headers: ^1.4.0
+  google_places_flutter: ^2.0.6
+
+  # 🔹 Polyline decoder para Directions
+  flutter_polyline_points: ^2.0.0
+
+  # 🔹 Íconos estilo iOS
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logoblanco.png
+    - assets/logo.png
+    - assets/google_logo.png
+    - assets/doctor.jpg
+    - assets/ambulancia.png
+    - assets/map_style.json
